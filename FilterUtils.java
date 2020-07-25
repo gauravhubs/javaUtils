@@ -1,6 +1,3 @@
-/**
- * Author: Gaurav Kumar
- */
 import com.fasterxml.jackson.annotation.JsonProperty;
 import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.lang.StringUtils;
@@ -17,6 +14,8 @@ import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * Utility to perform field selection (reset to null) object
+  *
+ * @author Gaurav Kumar
  */
 public class FilterUtils
 {
